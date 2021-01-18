@@ -14,6 +14,10 @@ import java.util.Date;
 @Controller
 public class HomeController {
 
+    public HomeController () {
+        System.out.println("***** HomeController *****");
+    }
+
     @Autowired
     private PostService postService;
 
